@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main-heading {
+    border: 2px dotted black;
+    opacity: 0.8;
+    border-radius: 15px;
+}
+input {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    font-size: large;
+}
+.button {
+    width: 70px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(155, 141, 175);
+    font-size: 17px;
+    cursor: pointer;
+}
+.button1 {
+    width: 70px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(234, 116, 116);
+    font-size: 17px;
+    cursor: pointer;
+
+}
+.item-list {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 10px;
+    padding: 5px;
+    border: 1px dotted black;
+    border-radius: 25px;
+    align-items: center;
+}
+.countList {
+    padding: 15px;
+    font-size: 20px;
+}
+.ItemList{
+    padding: 15px;
+    font-size: 20px;
+}
