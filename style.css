@@ -55,3 +55,12 @@ input {
     padding: 15px;
     font-size: 20px;
 }
+
+@media only screen and (max-width: 580px) {
+    .countList {
+        display: none;
+    }
+    .item-list {
+        grid-template-columns: 35% 35% 30%;
+    }
+}
